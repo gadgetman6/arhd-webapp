@@ -1,5 +1,5 @@
 export default function handler (req, res) {
-  let json
+  let json = { base: 'test' }
   if (req.method === 'POST') {
     // Process a POST request
     json = req.body
