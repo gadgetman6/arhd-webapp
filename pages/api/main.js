@@ -4,6 +4,7 @@ export default function handler (req, res) {
     // Process a POST request
     json = req.body
     console.log(json)
+    res.status (200)
   } else {
     // Handle any other HTTP method
     console.log('sending ')
